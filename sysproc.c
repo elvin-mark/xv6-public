@@ -93,3 +93,7 @@ sys_uptime(void)
 int sys_getyear(void){
   return 1975;
 }
+
+int sys_ps(void){
+  return ps();
+}
